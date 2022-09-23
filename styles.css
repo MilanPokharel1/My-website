@@ -9,8 +9,39 @@ html {
   html{
     font-size: 55%;
   }
-}
+  #mobile-nav{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.905);
+    width: 100%;
+    margin-top: 9rem;
+    position: fixed;
+    display: block;
+    text-align: center;
+    right: -100%;
+    transition:all 0.5s ease;
+    
+  }
+  #mobile-nav a {
+    display: block;
+    margin-top: 9rem;
+    font-size: 3rem;
+  }
+  #menu-button-id{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    z-index: 8;
+    display: block;
+  }
+  #menu-button-id:hover{
+    cursor: pointer;
+  }
 
+  #check:checked ~ #mobile-nav{
+    right: 0%;
+  }
+}
 
 @media all and (max-width: 768px){
   html{
@@ -73,6 +104,9 @@ a:hover{
   align-items: center;
   display: flex;
   flex-shrink: 0;
+}
+.menu-button{
+  display: none;
 }
 
 
