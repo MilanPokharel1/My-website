@@ -1,66 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>
-      Milan Pokharel
-    </title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Milan pokharel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <nav class="header" id="head">
-        <div class="left-section">
-          <img class="logo-picture" src="profile-photo/image-1.jpg">
-          <a href="#home" class="logo-text">MILAN POKHAREL</a>
-        </div>
-        <input type="checkbox" id="check">
-        <label for="check">
-          <i class="fas fa-bars"></i>
-        </label>
-        <img src="profile-photo/menu.png" alt="img" class="menu-button" id="menu-button-id">
-        <div class="right-section" id="mobile-nav">
-          <a href="#home" class="home-link">Home</a>
-          <a href="#about" class="about-link">About</a>
-          <a href="#gallery" class="gallery-link">Gallery</a>
-          <a href="#hobby" class="hobby-link">Hobby</a>
-          <a href="#contact" class="contact-me">Contact</a>
-        </div>
-      </nav>
 
-      <section class="home-page" id="home">
-        <div>
-          <img class="profile-picture" src="profile-photo/image-2.jpg">
+    <!--------nav bar-------->
+    
+    <section id="nav-bar-id" class="section-nav-bar">
+      <div class="nav-bar">
+        <div class="left-section">
+          <img class="logo-picture" src="img/image-1.jpg" alt="img">
+          <a href="#home-page-id">MILAN POKHAREL</a>
         </div>
-        <h1 class="profile-name">MILAN POKHAREL</h1>
-        <div class="divider">
-          <div class="divider-line"></div>
-          <h1 class="divider-star">&star;</h1>
-          <div class="divider-line"></div>
+        <input type="checkbox" id="menu-check">
+        <label for="menu-check" class="checker" id="hamburger--icon">
+          <img src="img/menu.png" alt="img">
+        </label>
+        <div class="right-section">
+          <a href="#home-page-id">Home</a>
+          <a href="#">About</a>
+          <a href="#">Gallery</a>
+          <a href="#">Hobby</a>
+          <a href="#">Contact</a>
+          
         </div>
-        <h2 class="bio-text">PROFESSIONAL WEB DEVELOPER</h2>
-        <h2 class="bio-text">AND</h2>
-        <h2 class="bio-text">AVIATION ENTHUSIAST</h2>
-        <section id="about" class="scroll-denote"></section>
-      </section>
-      <section class="about-section">
-        About
-        <section id="gallery" class="scroll-denote"></section>
-      </section>
-      <section class="gallery-section">
-        Gallery
-        <section id="hobby" class="scroll-denote"></section>
-      </section>
-      <section class="hobby-section">
-        Hobby
-        <section id="contact" class="scroll-denote"></section>
-      </section>
-      <section class="contact-section">
-        contact
-      </section>
-    </div>
+      </div>
+    </section>
+
+    <!--------end of nav bar -------->
+
+    <!--------- Home page ---------->
+
+    <section class="home-section" id="home-page-id">
+      <div>
+        <img class="profile-image" src="img/image-2.jpg" alt="img">
+        <h1>MILAN POKHAREL</h1>
+      </div>
+      <div class="divider">
+        <div class="divider-line"></div>
+        <h1 class="divider-star">&star;</h1>
+        <div class="divider-line"></div>
+      </div>
+      <h2 class="bio-text">PROFESSIONAL WEB DEVELOPER</h2>
+      <h2 class="bio-text">AND</h2>
+      <h2 class="bio-text">AVIATION ENTHUSIAST</h2>
+    </section>
+
+    <!--------- Home page ---------->
+
   </body>
 </html>
